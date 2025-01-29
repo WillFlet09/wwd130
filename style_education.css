@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&display=swap');
+
+:root{
+    --fancy_font: = "IM Fell French Canon" ;
+    --bold_font: "Roboto";
+}
+
+body{
+    background-color: #5ca1d7;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-family: var(--bold_font);
+}
+h1{
+    font-size: 800 px;
+    font-family:var(--bold_font);
+    color: white
+}
+h2{
+    font-family: var(--fancy_font);
+    color: white;
+    font-size: 300 px;
+}
+h4{
+    font-family: var(--bold_font);
+    font-weight:300;
+
+}
+ol{
+    font-family: var(--bold_font);
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-family: var(--fancy_font);
+    color:white;
+    
+}
