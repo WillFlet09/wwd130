@@ -1,0 +1,23 @@
+.top-image{
+    margin: 0 auto;
+    display:block;
+    width: 100%
+}
+
+
+#footer-images{
+    background-color: gray;
+    align-items: center;
+    text-align:center;
+    margin: 0 auto;
+    display: block;
+}
+
+#footer-images img{
+    width:250px;
+    height:250px;
+    margin: 50px;
+    border-radius:50%;
+    border: 12px solid black;
+
+}
