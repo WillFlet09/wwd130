@@ -1,0 +1,30 @@
+header{
+    background-color: forestgreen;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0.8em;
+    display: inline-block;
+}
+
+a:hover{
+    color: darkgreen;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+#flex-container{
+    display: flex;
+    gap:20m;
+    flex-wrap:wrap ;
+}
+
+#flex-container > section{
+    flex:200px;
+}
