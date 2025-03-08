@@ -222,6 +222,187 @@ footer .social img{
     padding-top:10px ;
 }
 
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#blog-nav{
+    background-color: #265279;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-around;
+}
+
+img#blog-nav{
+    grid-column: 1/2;
+}
+
+h1.blog-title{
+    text-align: center;
+    font-family: "Pirata One", "IM Fell French Canon", sans-serif;
+    font-size: 5em;
+}
+
+.summer{
+    margin-bottom: 400px;
+}
+
+h4.summer{
+    grid-column: 2/3;
+    font-family: "Pirata One", "IM Fell French Canon", sans-serif;
+    text-align: center;
+    font-size: 2em;
+    grid-row: 1/2;
+}
+
+p.summer{
+    grid-column: 2/3;
+    font-family: "IM Fell French Canon", sans-serif;
+    font-size: 1.5em;
+    grid-row: 1/2;
+    padding: 75px;
+}
+
+img.summer{
+    grid-column: 1/2;
+    margin: 0px 50px;
+    border: 10px solid #265279;
+}
+
+h4.highlights{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: "Pirata One", "IM Fell French Canon", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+img.highlights{
+    grid-column: 2/3;
+    margin: 0px 20px;
+    border: 10px solid #265279;
+}
+
+p.highlights{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-family: "IM Fell French Canon", sans-serif;
+    font-size: 1.5em;
+    padding: 100px;
+}
+
+img.encounters{
+    margin: 0px 150px;
+    border: 10px solid #265279;
+}
+
+h4.encounters{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 2em;
+    font-family: "Pirata One", "IM Fell French Canon", sans-serif;
+}
+
+p.encounters{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 1.5em;
+    font-family: "IM Fell French Canon", sans-serif;
+    padding: 100px;
+}
+
+img.scorpion{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border: 10px solid #265279;
+}
+
+.encounters{
+    margin-bottom: 300px;
+}
+
+h4.scorpion{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-family: "Pirata One", "IM Fell French Canon", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+p.scorpion{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding: 100px;
+    font-size: 1.5em;
+    font-family: "IM Fell French Canon", sans-serif;
+
+}
+
+p.scorpion2{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 1.5em;
+    padding: 100px;
+    padding-top: 400px;
+    font-family: "IM Fell French Canon", sans-serif;
+}
+
+img.sheep{
+    grid-column: 1/2;
+    margin: 50px;
+    grid-row: 5/6;
+    border: 10px solid #265279
+    
+}
+
+h4.sheep{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Pirata One", "IM Fell French Canon", sans-serif;
+
+}
+
+p.sheep{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    padding:100px;
+    font-size: 1.5em;
+    font-family: "IM Fell French Canon", sans-serif;
+    
+}
+
+p.sheep2{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    padding: 100px;
+    padding-top: 300px;
+    font-size: 1.5em;
+    font-family: "IM Fell French Canon", sans-serif;
+}
+
+p.sheep3{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    padding:100px;
+    font-size: 1.5em;
+    font-family: "IM Fell French Canon", sans-serif;
+}
+
+img.sheep3{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    margin: 50px;
+    border: 10px solid #265279;
+}
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
