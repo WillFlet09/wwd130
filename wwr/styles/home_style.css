@@ -229,7 +229,6 @@ footer .social img{
 
 #blog-nav{
     background-color: #265279;
-    grid-column: 1/3;
     display: flex;
     justify-content: space-around;
 }
@@ -399,6 +398,45 @@ img.sheep3{
     border: 10px solid #265279;
 }
 
+#contact{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+label,input,area,textarea,button{
+    display: block;
+    width:20rem;
+    margin: 0 auto
+}
+
+#contact-content{
+    border: 2px solid black;
+    width: 62rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+input, textarea{
+    margin-bottom: 1rem;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+          
 
 
 
